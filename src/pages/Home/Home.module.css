@@ -1,0 +1,14 @@
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.mainHeading{
+    color:rgb(14, 47, 117);
+    font-size: 4rem;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.typeContainer{
+    font-size: 2rem;
+}
