@@ -1,0 +1,26 @@
+.navbar{
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+}
+.mainNav{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.navItem{
+    cursor: pointer;
+}
+
+.logo{
+    color:#be2edd;
+    font-weight: 700;
+}
+.logo__inner{
+    color:black
+}
