@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import styles from "./Home.module.css";
 import Typewriter from "typewriter-effect";
-import image from "../../images/uzairkhanrectangle.jpeg"
+import image from "../../images/uzairkhanrectangle.jpeg";
+import Toolkit from "../../components/Toolkit/Toolkit";
 
 export default function Home(){
 
@@ -48,6 +49,7 @@ export default function Home(){
         </div>
 </div>
     </section>
+    <Toolkit/>
     </>
     )
 
