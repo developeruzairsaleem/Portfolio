@@ -1,5 +1,6 @@
 .section{
     background-color: #F0F2F3;
+    padding-bottom: 4rem;
 }
 .container{
     max-width: 1100px;
@@ -16,12 +17,12 @@
 
 .project{
     display: flex;
-    gap: 4rem;
+    gap: 3rem;
     align-items: center;
 }
 .image{
     height: 250px;
-    width: 500px;
+    width: 400px;
 }
 
 .description{
@@ -31,4 +32,31 @@
     /* margin-top: 2rem; */
     font-weight: 300;
 
+}
+
+.buttonContainer{
+    margin: 2rem 0;
+    display: flex;
+    gap: 2rem;
+}
+
+.code{
+    padding: 1rem 2rem;
+    padding: 2rem 4rem;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: rgb(45, 128, 250);
+    border: 3px solid rgb(45, 128, 250);
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 2px 6px 8px;
+ }
+.website{
+    padding: 2rem 4rem;
+    font-size: 1.5rem;
+   background-color:  rgb(45, 128, 250);
+   color: white;
+   box-shadow: rgba(0, 0, 0, 0.15) 2px 6px 8px;
+    border: none;
+    outline: none;
+    border: 3px solid rgb(45, 128, 250);
 }

@@ -20,9 +20,17 @@ return(
                     <p className={styles.description}>
                     A blog platform where users can create, edit, and delete blog posts with ease . 
                     </p>
-                    <div className={styles.buttonContainer}></div>
-                    <button className={styles.website}> Visit Site</button>
-                    <button className={styles.code}> Visit Code</button>
+                    <div className={styles.buttonContainer}>
+
+                    <a href="https://coin-base-app-by-uzair.onrender.com">
+                    <button className={styles.website}> visit website</button>
+
+                    </a>
+                    <a href="https://github.com/Uzairsaleemkhan/coin-base-modified-frontend">
+
+                    <button className={styles.code}> visit code</button>
+                    </a>
+                    </div>
                 </div>
             </div>
              
