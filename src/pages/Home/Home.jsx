@@ -5,6 +5,8 @@ import Typewriter from "typewriter-effect";
 import image from "../../images/uzairkhanrectangle.jpeg";
 import Toolkit from "../../components/Toolkit/Toolkit";
 import Projects from "../../components/Projects/Projects";
+import Contact from "../../components/Contact/Contact";
+import Footer from "../../components/Footer/Footer";
 
 export default function Home(){
 
@@ -52,6 +54,11 @@ export default function Home(){
     </section>
     <Toolkit/>
     <Projects/>
+    <Contact/>
+    <Footer/>
+
+
+
     </>
     )
 

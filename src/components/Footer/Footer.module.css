@@ -1,0 +1,12 @@
+.section{
+    margin: 1rem auto;
+    border-top: 1px solid rgb(235, 235, 235);
+    color: rgb(216, 216, 216);
+}
+.container{
+    max-width: 1100px;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
