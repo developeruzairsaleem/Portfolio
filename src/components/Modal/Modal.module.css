@@ -1,0 +1,93 @@
+.section{
+
+    position: fixed;
+
+    margin: 0;
+    padding: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.582);
+    z-index: 12;
+    
+}
+.modal{
+    width: 55%;
+    background-color: black;
+    margin: 8rem auto 0 auto;
+}
+.iconContainer{
+    position: absolute;
+
+}
+
+.main{
+    background-color: rgb(49, 49, 49);
+    padding: 2rem 3rem;
+}
+.mainInner{
+ 
+    background-color: rgb(248, 250, 251);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.mainLabel{
+    display: block;
+    /* margin: 4rem auto; */
+    border-top: 1px solid transparent;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.mainHeading{
+    text-align: center;
+    color:  #001828;
+    font-size: 2.3rem;
+    font-family: 'Libre Baskerville', serif;
+    margin: 3rem auto;
+
+}
+.para{
+    text-align: center;
+    margin: 2rem auto;
+    font-size: 1.3rem;
+}
+
+.secondary{
+    background-color:rgb(248, 250, 251) ;
+    display: flex;
+    gap: 2rem;
+    align-items: flex-end;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.emailSection{
+    width: 100%;
+}
+.nameSection{
+    width: 100%;
+}
+.buttonSection{
+    width: 100%;
+}
+.label{
+    font-size: 1.2rem;
+}
+.input{
+    outline: none;
+    border: 1px solid rgb(49, 49, 49);
+    width: 100%;
+    padding: 1.5rem 2.5rem;
+    font-size: 1.2rem;
+    margin-top: .5rem;
+}
+.button{
+    padding: 2rem 4rem;
+    
+    background-color:rgb(54, 57, 69) ;
+    font-size: 1.3rem;
+    color: white;
+    width: 100%;
+}
+
+
+

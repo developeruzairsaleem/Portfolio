@@ -7,10 +7,22 @@ import Toolkit from "../../components/Toolkit/Toolkit";
 import Projects from "../../components/Projects/Projects";
 import Contact from "../../components/Contact/Contact";
 import Footer from "../../components/Footer/Footer";
+import Modal from "../../components/Modal/Modal";
 
 export default function Home(){
+const [modal,setModal]= useState(false)
+   function handleModalButtonClick(){
+setModal(true)
+    }
+   function handleBlackClick(){
+setModal(false)
+    }
 
     return(<>
+    {
+        modal&&<Modal onBlackClick={handleBlackClick}/>
+
+    }
             <Navbar/>
     <section className={styles.homeSection}>
 
@@ -43,7 +55,7 @@ export default function Home(){
  }}
 />
         </div>
-            <button className={styles.resumeButton}>Download Resume</button>
+            <button onClick={handleModalButtonClick} className={styles.resumeButton}>Download Resume</button>
 
         </div>
 
@@ -56,7 +68,6 @@ export default function Home(){
     <Projects/>
     <Contact/>
     <Footer/>
-
 
 
     </>
