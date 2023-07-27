@@ -15,10 +15,19 @@
     width: 55%;
     background-color: black;
     margin: 8rem auto 0 auto;
+    position: relative;
 }
+
 .iconContainer{
     position: absolute;
-
+    top: 0;
+    right: 0;
+    
+}
+.icon{
+    cursor :pointer;
+    font-size: 3rem;
+    color: white;
 }
 
 .main{

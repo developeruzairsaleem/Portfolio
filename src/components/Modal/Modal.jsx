@@ -1,5 +1,5 @@
 import styles from "./Modal.module.css"
-
+import {BsFillXSquareFill} from "react-icons/bs"
 export default function Modal ({onBlackClick}){
 
 
@@ -8,8 +8,8 @@ export default function Modal ({onBlackClick}){
     return (
         <section className={styles.section} onClick={onBlackClick}>
                 <div className={styles.modal} onClick={(e)=>e.stopPropagation()}>
-                <div className={styles.iconContainer}>
-
+                <div  className={styles.iconContainer}>
+                <BsFillXSquareFill onClick={()=>{onBlackClick()}}  className={styles.icon} />
                 </div>
                 <div className={styles.main}>
                 <div className={styles.mainInner}>
