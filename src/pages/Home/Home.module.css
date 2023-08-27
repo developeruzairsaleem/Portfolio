@@ -11,8 +11,10 @@
     /* width: 300px; */
 }
 .image{
-    width: 199px;
-    /* height: 99px; */
+    width: 299px;
+    border-radius: 20px;
+    height: 359px;
+    object-fit: cover;
 }
 .homeSection{
     background-color: #F0F2F3;
