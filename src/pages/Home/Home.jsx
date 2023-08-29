@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import styles from "./Home.module.css";
 import Typewriter from "typewriter-effect";
@@ -24,7 +24,7 @@ setModal(false)
 
     }
             <Navbar/>
-    <section className={styles.homeSection}>
+    <section id="home-section" className={styles.homeSection}>
 
 
         <div className={styles.container}>
@@ -65,7 +65,7 @@ setModal(false)
 </div>
     </section>
     <Toolkit/>
-    <Projects/>
+    {/* <Projects/> */}
     <Contact/>
     <Footer/>
 

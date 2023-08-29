@@ -1,0 +1,77 @@
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.completeHead{
+    background-color: #F0F2F3;
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+}
+.mainHeading{
+    color:  #001828;
+    font-size: 2.3rem;
+    font-family: 'Libre Baskerville', serif;
+    /* text-align: center; */
+}
+.mainPara{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.8rem;
+    color:  #001828;
+    margin: 2rem 0;
+    font-weight: 300;
+    line-height: 1.5;
+    /* max-width: 80%; */
+    padding-bottom: 3rem;
+}
+.secondaryHeading{
+    color: #1d1d1d;
+    margin: 2rem 0;
+    margin-top: 6rem;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.accordion{
+    margin: 3rem auto;
+    width: 900px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.accordionItem{
+    border-bottom: 1px solid #808080;
+}
+.icon{
+    font-size: 1.5rem;
+    color: #1d1d1d;
+    font-weight: 700;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+    cursor: pointer;
+}
+.body{
+    transition: 'max-height' 1.3s ease;
+    overflow: hidden;
+   
+}
+.accordionHeading{
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #1d1d1d;
+}
+
+.accordionPara{
+    /* transition: all 1.3s; */
+    padding: 1.5rem 0;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 400;
+    /* letter-spacing: 1px; */
+    word-spacing: 2px;
+    color: #808080;
+    padding-bottom: 3rem;
+
+}
+

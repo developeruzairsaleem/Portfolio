@@ -5,7 +5,7 @@ export default function Projects(){
 
 return(
     <>
-       <section className={styles.section}>
+       <section id="project-section" className={styles.section}>
         <div className={styles.container}>
             <h3 className={styles.mainHeading}> 
             Projects

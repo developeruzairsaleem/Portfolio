@@ -20,11 +20,11 @@ export default function Modal ({onBlackClick}){
                 </div>
                     <div className={styles.secondary}>
                         <div className={styles.nameSection}>
-                            <p className={styles.label}>First Name</p>
+                            {/* <p className={styles.label}>First Name</p> */}
                             <input placeholder="Enter you Name..." className={styles.input} type="text" />
                         </div>
                         <div className={styles.emailSection}> 
-                        <p className={styles.label}>Email</p>
+                        {/* <p className={styles.label}>Email</p> */}
                         <input placeholder="Enter your Email" className={styles.input} type="email" name="" id="" />
                         </div>
                         <div className={styles.buttonSection}>
