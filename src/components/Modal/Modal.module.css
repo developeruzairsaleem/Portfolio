@@ -44,7 +44,6 @@
 }
 .mainLabel{
     display: block;
-    /* margin: 4rem auto; */
     border-top: 1px solid transparent;
     text-align: center;
     font-size: 1.2rem;
@@ -74,12 +73,15 @@
 }
 .emailSection{
     width: 100%;
+    flex: 3;
 }
 .nameSection{
     width: 100%;
+    flex: 2;
 }
 .buttonSection{
     width: 100%;
+    flex: 3;
 }
 .label{
     font-size: 1.2rem;
