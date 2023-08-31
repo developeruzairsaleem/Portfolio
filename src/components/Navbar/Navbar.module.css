@@ -20,11 +20,43 @@
 .mainNav{
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: 3rem;
     font-size: 1rem;
     font-family: 'Oswald', sans-serif;
     color:black;
     text-transform: uppercase;
 }
 
+.navItem{
+    position: relative;
+    overflow: hidden;
+    z-index: 11;
+
+    cursor: pointer;
+}
+
+.navItem::before{
+    content:'';
+    width:100%;
+    height: 9px;
+    background-color: #E6F1F5;
+    z-index: -1;
+    display: block;
+    position: absolute;
+    /* transform: translateY(50%); */
+    bottom: -3px;
+    left: 0;
+    /* filter: blur(1px); */
+    opacity: 0;
+}
+
+
+.navItem:hover::before{
+    opacity: 1;
+    bottom: 3px;
+    transition: bottom .3s ease 0s;
+
+
+
+}
 
