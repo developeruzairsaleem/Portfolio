@@ -1,10 +1,8 @@
 import { useState } from "react";
-import Navbar from "../../components/Navbar/Navbar";
 import styles from "./Home.module.css";
 import Typewriter from "typewriter-effect";
 import image from "../../images/uzairkhanrectangle.jpeg";
 import Toolkit from "../../components/Toolkit/Toolkit";
-import Projects from "../../components/Projects/Projects";
 import Contact from "../../components/Contact/Contact";
 import Footer from "../../components/Footer/Footer";
 import Modal from "../../components/Modal/Modal";
@@ -23,7 +21,6 @@ setModal(false)
         modal&&<Modal onBlackClick={handleBlackClick}/>
 
     }
-            <Navbar/>
     <section id="home-section" className={styles.homeSection}>
 
 
@@ -67,9 +64,6 @@ setModal(false)
     <Toolkit/>
     {/* <Projects/> */}
     <Contact/>
-    <Footer/>
-
-
     </>
     )
 

@@ -1,33 +1,32 @@
 
 import styles from "./Navbar.module.css";
 import image from "../../images/logo.png";
-import {useNavigate} from "react-router-dom"
+import { NavLink, useNavigate } from "react-router-dom";
+import { useState } from "react";
 export default function Navbar(){
-const navigate = useNavigate()
+    const [activateTransition,setActivateTransition] = useState(false)
+
 return(
     <div className={styles.navContainer}>
-
     <div className={styles.navbar}>
-        <div className={styles.logo} onClick={()=>{
-          navigate('/')
-          let item =  document.getElementById('home-section')
-          if(item){
-          item.scrollIntoView({behavior:'smooth'})
-          }
-        }}>
+        <NavLink to="/" className={styles.logo} >
             <img style={{height:"50px"}} src={image} alt="" srcset="" />
+        </NavLink>
+        <div className={styles.mainNav}>
+            <NavLink to='/projects' className={({isActive})=>(
+                isActive?styles.active:styles.navItem
+            ) 
+            }  >Projects</NavLink>
+            <NavLink to='/contact' className={({isActive})=>(
+                isActive?styles.active:styles.navItem
+            ) 
+            }  >Contact</NavLink>
+            <NavLink to='/myjourney' className={({isActive})=>(
+                isActive?styles.active:styles.navItem
+            ) 
+            }  
+             >Journey</NavLink>
         </div>
-        <ul className={styles.mainNav}>
-            <li className={styles.navItem} onClick={()=>{
-                navigate('/projects')
-            }}>Projects</li>
-            <li className={styles.navItem} onClick={()=>{
-                navigate('/contact')
-            }} >Contact</li>
-            <li className={styles.navItem} onClick={()=>{
-                navigate('/myjourney')
-            }} >Journey</li>
-        </ul>
     </div>
     </div>
 )

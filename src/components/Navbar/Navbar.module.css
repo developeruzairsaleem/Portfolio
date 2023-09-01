@@ -4,7 +4,6 @@
     top: 0;
     width: 100%;
     z-index: 33;
-
 }
 .navbar{
     margin: 1rem auto;
@@ -31,7 +30,8 @@
     position: relative;
     overflow: hidden;
     z-index: 11;
-
+    text-decoration: none;
+    color: black;
     cursor: pointer;
 }
 
@@ -43,20 +43,39 @@
     z-index: -1;
     display: block;
     position: absolute;
-    /* transform: translateY(50%); */
-    bottom: -3px;
+    bottom: -4px;
     left: 0;
-    /* filter: blur(1px); */
     opacity: 0;
 }
-
-
-.navItem:hover::before{
+.navItem:hover:before{
     opacity: 1;
-    bottom: 3px;
+    bottom: 2px;
     transition: bottom .3s ease 0s;
-
-
-
 }
+
+
+.active{
+    position: relative;
+    overflow: hidden;
+    z-index: 11;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    
+}
+
+.active::before{
+    
+    content:'';
+    width:100%;
+    height: 9px;
+    background-color: #E6F1F5;
+    z-index: -1;
+    display: block;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    opacity: 1;
+}
+
 

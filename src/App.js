@@ -9,9 +9,10 @@ import Projects from "./components/Projects/Projects";
 
 function App() {
   return (
-    <div className="App">
 
     <BrowserRouter>
+    <div className="App">
+  <Navbar/>
 <Routes>
   <Route path="/" exact element={
       <Home/>
@@ -20,26 +21,16 @@ function App() {
  <MyJourney/>
 }/>
 <Route path="/contact" exact element={
- <>
-
-  <Navbar/>
  <Contact/>
- <Footer/>
- </>
- 
 }/>
 <Route path="/projects" exact element={
- <>
-
-  <Navbar/>
  <Projects/>
- <Footer/>
- </>
- 
 }/>
      </Routes>
-    </BrowserRouter>
+ <Footer/>
     </div>
+    </BrowserRouter>
+
   );
 }
 export default App;

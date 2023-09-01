@@ -23,9 +23,9 @@ export default function MyJourney() {
   }, [isActive]);
 
 
-  return (
-    <div className={styles.main}>
+  return (<>
     <Navbar/>
+    <div className={styles.main}>
     <div className={styles.completeHead}>
 
       <div className={styles.container}>
@@ -75,7 +75,7 @@ export default function MyJourney() {
           ))}
         </div>
         </div>
-      <Footer/>
     </div>
+  </>
   );
 }

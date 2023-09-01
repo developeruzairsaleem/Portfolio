@@ -2,6 +2,7 @@
     padding-top: 5rem;
     background-color: #F0F2F3;
     padding-bottom: 4rem;
+    margin: 0 1rem;
 }
 .container{
     max-width: 1100px;
@@ -15,6 +16,54 @@
     text-align: center;
     padding: 4rem 0;
 }
+
+
+.basicProjects{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.basicProject{
+width: 30%;
+}
+.basicImageContainer{
+    /* overflow: hidden; */
+    height: 300px;
+}
+.basicImage{
+object-fit: cover;
+object-position: center;
+width: 100%;
+height: 100%;
+}
+.basicTitle{
+    margin: 1rem 0;
+}
+
+.basicDescription{
+    
+    margin: 1rem 0;
+}
+.basicButtons{
+display: flex;
+/* justify-content: space-between; */
+gap: 1rem;
+}
+
+.basicWebsite{
+padding: 1rem 1rem; 
+background-color: black;
+color: white;
+outline: none;
+border: 1px solid black;
+}
+.basicCode{
+    padding: 1rem 1rem;
+    border: 1px solid black;
+}
+
 
 .project{
     display: flex;
@@ -70,3 +119,6 @@
     outline: none;
     border: 3px solid rgb(45, 128, 250);
 }
+
+
+
