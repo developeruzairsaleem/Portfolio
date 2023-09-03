@@ -1,6 +1,6 @@
 .section{
     padding-top: 5rem;
-    background-color: #F0F2F3;
+    /* background-color: #F0F2F3; */
     padding-bottom: 4rem;
     margin: 0 1rem;
 }
@@ -8,16 +8,41 @@
     max-width: 1100px;
     margin: 0 auto;
 }
+.headerSection{
+    background-color: #F0F2F3;
+}
+.projectSection{
+    background-color: white;
+}
 
 .mainHeading{
     color:  #001828;
     font-size: 2.3rem;
     font-family: 'Libre Baskerville', serif;
-    text-align: center;
-    padding: 4rem 0;
+    /* text-align: center; */
+    padding: 5rem 0 0rem 0;
 }
+.secondaryHeading{
+    color:  #001828;
+    font-size: 2.3rem;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    padding:6rem 0 4rem 0;
+    
 
-
+}
+.mainPara{
+    
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.8rem;
+    color:  #001828;
+    margin-top: 2rem;
+    font-weight: 300;
+    padding-bottom: 8rem;
+}
+.projectSection{
+    /* padding: 5rem 0; */
+}
 .basicProjects{
     display: flex;
     /* justify-content: space-between; */
@@ -26,11 +51,15 @@
 }
 
 .basicProject{
+    border: 1px solid #001828;
+    padding: 1rem;
+    box-sizing: border-box;
 width: 30%;
 }
 .basicImageContainer{
     /* overflow: hidden; */
-    height: 300px;
+    height: 260px;
+
 }
 .basicImage{
 object-fit: cover;
@@ -69,7 +98,7 @@ border: 1px solid black;
     display: flex;
     gap: 3rem;
     align-items: center;
-    margin:5rem 0;
+    margin:3rem 0;
     justify-content: space-between
 }
 .left{
@@ -83,6 +112,9 @@ border: 1px solid black;
   width: 100%;
   height: 350px;
   object-fit: cover;
+  border: 1px solid rgb(45, 128, 250);
+  padding: 1rem;
+  border-radius: 20px;
 }
 
 .description{
