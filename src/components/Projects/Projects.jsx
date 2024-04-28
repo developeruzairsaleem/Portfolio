@@ -37,7 +37,7 @@ export default function Projects() {
                 <div className={styles.basicButtons}>
                   <a
                     target="_blank"
-                    href="https://uzairsaleemkhan.github.io/Hangman-Application/"
+                    href="https://developeruzairsaleem.github.io/Hangman-Application/"
                   >
                     <button className={styles.basicWebsite}>
                       See in Action
@@ -45,7 +45,7 @@ export default function Projects() {
                   </a>
                   <a
                     target="_blank"
-                    href="https://github.com/Uzairsaleemkhan/Hangman-Application"
+                    href="https://github.com/developeruzairsaleem/Hangman-Application"
                   >
                     <button className={styles.basicCode}>GitHub Repo</button>
                   </a>
@@ -67,7 +67,7 @@ export default function Projects() {
                 </p>
                 <div className={styles.basicButtons}>
                   <a
-                    href="https://uzairsaleemkhan.github.io/Music-Player-2/"
+                    href="https://developeruzairsaleem.github.io/Music-Player-2/"
                     target="_blank"
                   >
                     <button className={styles.basicWebsite}>
@@ -75,7 +75,7 @@ export default function Projects() {
                     </button>
                   </a>
                   <a
-                    href="https://github.com/Uzairsaleemkhan/Music-Player-2"
+                    href="https://github.com/developeruzairsaleem/Music-Player-2"
                     target="_blank"
                   >
                     <button className={styles.basicCode}>GitHub Repo</button>
@@ -106,7 +106,7 @@ export default function Projects() {
                     </button>
                   </a>
                   <a
-                    href="https://github.com/Uzairsaleemkhan/Quiz-app"
+                    href="https://github.com/developeruzairsaleem/Quiz-app"
                     target="_blank"
                   >
                     <button className={styles.basicCode}>GitHub Repo</button>
@@ -130,7 +130,7 @@ export default function Projects() {
                   <a href="https://uzairblogcrudapp.onrender.com/">
                     <button className={styles.website}> visit website</button>
                   </a>
-                  <a href="https://github.com/Uzairsaleemkhan/personal-blog-frontend">
+                  <a href="https://github.com/developeruzairsaleem/personal-blog-frontend">
                     <button className={styles.code}> visit code</button>
                   </a>
                 </div>
